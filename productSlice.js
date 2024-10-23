@@ -3,8 +3,8 @@ import { createSlice } from '@reduxjs/toolkit';
 const productSlice = createSlice({
   name: 'products',
   initialState: [
-    { id: 1, name: 'sting', price: 10000 },
-    { id: 2, name: 'nuoc loc', price: 5000 }
+    { id: 1, name: 'vo', price: 10000 },
+    { id: 2, name: 'but', price: 5000 }
   ],
   reducers: {
     addProduct: (state, action) => {
